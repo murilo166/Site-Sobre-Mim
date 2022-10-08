@@ -1,0 +1,70 @@
+*{
+    
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    display: inline;
+    
+    
+}
+
+ul {
+    padding: 20px;
+    margin: 0;
+    background-color: bisque;
+    text-align: center;
+    
+}
+
+li a {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    padding: 30px;
+    font-style: normal;
+    color: black;
+    font-size: 22px;
+}
+
+h2{
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    background-color:  rgba(255, 228, 196, 0.275);
+    
+}
+
+
+h3{
+    text-align: center;
+    text-align: center;
+    padding-top: 40px;
+    font-size: 30px;
+    
+}
+
+form{
+    text-align: center;
+    padding-top: 100px;
+    display: column;
+    background-color: rgba(255, 228, 196, 0.275);
+}
+
+form input{
+    font-size: 30px;
+    text-align: center;
+}
+
+form label{
+    font-size: 30px;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    
+}
+
+ul li img{
+    
+    margin-right: 200px;
+    max-width: 150px;
+}
+

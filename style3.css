@@ -1,0 +1,81 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.header{
+
+    padding: 200px;
+    background-image: url(imagem/logo2.png)
+    
+    
+}
+
+
+li{
+    display: inline;
+    
+    
+}
+
+ul {
+    padding: 2px;
+    margin: 0;
+    background-color: bisque;
+    text-align: center;
+    
+}
+
+li a {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    padding: 30px;
+    font-style: normal;
+    color: black;
+    font-size: 22px;
+}
+
+.contato{
+    text-align: center;
+    padding-top: 60px;
+    
+    padding-bottom: 90px;
+    
+}
+
+
+
+.imagem{
+    text-align: center;
+    background-color:  bisque;
+    display: flex;
+    padding: 20px;
+    padding-bottom: 80px;
+    
+    
+}
+
+.imagem img{
+    
+    display: flex;
+    padding-left: 90px;
+    padding-right: 90px;
+    text-align: center;
+    align-items: center;
+}
+
+.container h3{
+    text-align: center;
+    align-items: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h2 a{
+    text-decoration: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+

@@ -1,0 +1,79 @@
+*{
+    
+    margin: 0;
+    padding: 0;
+}
+
+
+.header{
+
+    padding: 200px;
+    background-image: url(imagem/logo2.png)
+    
+    
+}
+
+li{
+    display: inline;
+    
+    
+}
+
+ul {
+    padding: 2px;
+    margin: 0;
+    background-color: bisque;
+    text-align: center;
+    
+}
+
+li a {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    padding: 30px;
+    font-style: normal;
+    color: black;
+    font-size: 22px;
+}
+
+img{
+    display: inline;
+    max-width: 250px;
+    min-height: 200px;
+    margin: 0;
+    padding: 20px;
+    padding-right: 30px;
+    
+
+}
+
+p{
+
+text-decoration: solid;
+font-size: 30px;
+padding: 20px;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+    }
+
+    h2{
+        text-align: center;
+        font-size: x-large;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        
+    }
+
+    .container{
+        display: inline-flex;
+        align-items: center;
+        font-size: 30px;
+        font-family: Brush Script MT, Brush Script Std, cursive;
+        display: inline-flex;
+        
+    }
+
+ 
+    
+
+
+

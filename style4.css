@@ -1,0 +1,68 @@
+*{
+    
+    margin: 0;
+    padding: 0;
+}
+
+
+.header{
+
+    padding: 200px;
+    background-image: url(imagem/logo2.png)
+    
+    
+}
+
+li{
+    display: inline;
+    
+    
+}
+
+ul {
+    padding: 2px;
+    margin: 0;
+    background-color: bisque;
+    text-align: center;
+    
+}
+
+li a {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    padding: 30px;
+    font-style: normal;
+    color: black;
+    font-size: 22px;
+}
+
+.imagem img{
+    max-width: 180px;
+    padding: 60px;
+    
+    
+}
+.imagem{
+    text-align: center;
+    padding-inline: center;
+    display: inline-flex;
+
+}
+
+h2{
+    text-align: center;
+    padding-bottom: 60px;
+    padding-top: 60px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+
+.imagem input{
+    font-size: 15px;
+}
+
+.imagem h3{
+font-size: 30px;
+
+}
+
