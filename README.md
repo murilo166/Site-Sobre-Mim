@@ -6,5 +6,7 @@ Este e meu segundo site,utilizei apenas HTML e CSS para a criação desse projet
 
 ## Como Utilizar
 1.Faça o dowload do arquivo zip dos arquivos clicando em "code" acima.
+
 2.Extraia os arquivos da pasta zip.
+
 3.Clique duas vezes no arquivo caminho.
