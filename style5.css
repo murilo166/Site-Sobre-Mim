@@ -1,57 +1,55 @@
-.header{
-
-    padding: 200px;
-    background-image: url(imagem/logo2.png)
-    
-    
-}
-
-
-li{
-    display: inline;
-    
-    
-}
-
-ul {
-    padding: 2px;
+*{
     margin: 0;
-    background-color: bisque;
-    text-align: center;
+    padding: 0;
     
 }
 
-li a {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    text-decoration: none;
+.header{
+    text-align: center;
+    padding: 60px;
+    padding-bottom: 250px;
+    background-image: url(imagem/banner.png);
+    
+}
+
+ul{
+    text-align: center;
     padding: 30px;
-    font-style: normal;
-    color: black;
-    font-size: 22px;
+    background-color: MidnightBlue;
+    overflow: auto;
+    
 }
 
-form{
-    padding-top: 60px;
-    text-align: center;
+ul li{
+    display: inline;
+    padding: 15px;
 }
 
-h2{
-    text-align: center;
-    padding-top: 40px;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
-}
-
-form label{
-    font-size: 30px;
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
-}
-
-
-form input{
+ul a{
+    text-decoration: none;
+    text-decoration-style: none;
     font-size: 20px;
+    color:rgb(255, 255, 255);
+    font-style: italic;
+    
 }
 
-form{
-    background-color: bisque;
-    padding-bottom: 30px;
-}
+.logo{
+    max-width: 40px;
+ }
+
+ ul li :hover{
+    background-color: black;
+ }
+
+
+ ul li :hover{
+    background-color: black;
+ }
+
+ body{
+    background-image: url(imagem/grade.webp);
+ }
+
+
+

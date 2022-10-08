@@ -1,68 +1,89 @@
 *{
-    
     margin: 0;
     padding: 0;
 }
 
-
 .header{
-
-    padding: 200px;
-    background-image: url(imagem/logo2.png)
-    
-    
-}
-
-li{
-    display: inline;
-    
-    
-}
-
-ul {
-    padding: 2px;
-    margin: 0;
-    background-color: bisque;
     text-align: center;
-    
-}
-
-li a {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    text-decoration: none;
-    padding: 30px;
-    font-style: normal;
-    color: black;
-    font-size: 22px;
-}
-
-.imagem img{
-    max-width: 180px;
     padding: 60px;
-    
+    padding-bottom: 250px;
+    background-image: url(imagem/banner.png);
     
 }
-.imagem{
+
+ul{
     text-align: center;
-    padding-inline: center;
-    display: inline-flex;
-
-}
-
-h2{
-    text-align: center;
-    padding-bottom: 60px;
-    padding-top: 60px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 30px;
+    background-color: MidnightBlue;
+    overflow: auto;
     
 }
 
-.imagem input{
-    font-size: 15px;
+ul li{
+    display: inline;
+    padding: 15px;
 }
 
-.imagem h3{
-font-size: 30px;
-
+ul a{
+    text-decoration: none;
+    text-decoration-style: none;
+    font-size: 20px;
+    color:rgb(255, 255, 255);
+    font-style: italic;
+    
 }
+
+.logo{
+    max-width: 40px;
+ }
+
+ ul li :hover{
+    background-color: black;
+ }
+
+
+ .container{
+    display:flex;
+    flex-wrap: wrap;
+    
+    
+ }
+
+ .container div{
+
+    flex: 1 1 200px;
+    margin: 60px;
+    margin-top: 30px;
+
+ }
+
+
+ h2{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 40px;
+ }
+
+ h3{
+    padding-bottom: 30px;
+    font-size: 29px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+ }
+
+ .container img{
+    max-width: 500px;
+ }
+
+ p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    font-style: italic;
+ }
+ 
+
+
+ 
+
+
 

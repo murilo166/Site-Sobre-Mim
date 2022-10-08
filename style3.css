@@ -1,81 +1,85 @@
 *{
-    padding: 0;
     margin: 0;
+    padding: 0;
 }
 
 .header{
-
-    padding: 200px;
-    background-image: url(imagem/logo2.png)
-    
-    
-}
-
-
-li{
-    display: inline;
-    
-    
-}
-
-ul {
-    padding: 2px;
-    margin: 0;
-    background-color: bisque;
     text-align: center;
+    padding: 60px;
+    padding-bottom: 250px;
+    background-image: url(imagem/banner.png);
     
 }
 
-li a {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    text-decoration: none;
+.logo{
+    max-width: 40px;
+ }
+
+ ul{
+    text-align: center;
     padding: 30px;
-    font-style: normal;
-    color: black;
-    font-size: 22px;
-}
-
-.contato{
-    text-align: center;
-    padding-top: 60px;
-    
-    padding-bottom: 90px;
+    background-color: MidnightBlue;
+    overflow: auto;
     
 }
 
-
-
-.imagem{
-    text-align: center;
-    background-color:  bisque;
-    display: flex;
-    padding: 20px;
-    padding-bottom: 80px;
-    
-    
+ul li{
+    display: inline;
+    padding: 15px;
 }
 
-.imagem img{
-    
-    display: flex;
-    padding-left: 90px;
-    padding-right: 90px;
-    text-align: center;
-    align-items: center;
-}
-
-.container h3{
-    text-align: center;
-    align-items: center;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-
-h2 a{
+ul a{
     text-decoration: none;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration-style: none;
+    font-size: 20px;
+    color:rgb(255, 255, 255);
+    font-style: italic;
+    
 }
 
-h1{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
+ul li :hover{
+    background-color: black;
+ }
 
+ h2{
+    text-align: center;
+ }
+
+ img{
+    max-width: 200px;
+ }
+
+ 
+ 
+
+ .bastidor{
+    display: inline-flex;
+    margin: 20px;
+ }
+
+ .bastidor div{
+    margin: 50px;
+ }
+
+ h2{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-top: 30px;
+ }
+
+ .bastidor div audio{
+    padding-top: 300px;
+    width: 800px;
+ }
+ h3{
+    padding-bottom: 10px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic
+    
+ }
+
+ p{
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    font-style: italic;
+ }

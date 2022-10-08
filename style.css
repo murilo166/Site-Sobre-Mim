@@ -1,79 +1,101 @@
 *{
-    
     margin: 0;
     padding: 0;
 }
 
 
 .header{
-
-    padding: 200px;
-    background-image: url(imagem/logo2.png)
-    
-    
-}
-
-li{
-    display: inline;
-    
-    
-}
-
-ul {
-    padding: 2px;
-    margin: 0;
-    background-color: bisque;
     text-align: center;
+    padding: 60px;
+    padding-bottom: 250px;
+    background-image: url(imagem/banner.png);
     
 }
 
-li a {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    text-decoration: none;
+.footer{
+    text-align: center;
+    padding: 60px;
+    background-color: gray;
+    
+}
+
+ul{
+    text-align: center;
     padding: 30px;
-    font-style: normal;
-    color: black;
-    font-size: 22px;
-}
-
-img{
-    display: inline;
-    max-width: 250px;
-    min-height: 200px;
-    margin: 0;
-    padding: 20px;
-    padding-right: 30px;
+    background-color: MidnightBlue;
+    overflow: auto;
     
-
 }
 
-p{
+ul li{
+    display: inline;
+    padding: 15px;
+}
 
-text-decoration: solid;
-font-size: 30px;
-padding: 20px;
-font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ul a{
+    text-decoration: none;
+    text-decoration-style: none;
+    font-size: 20px;
+    color:rgb(255, 255, 255);
+    font-style: italic;
+    
+}
 
-    }
 
-    h2{
-        text-align: center;
-        font-size: x-large;
-        font-family: Georgia, 'Times New Roman', Times, serif;
-        
-    }
+h2{
+    text-align: center;
+    font-size: 40px;
+    padding-top: 50px;
+    font-style:unset;
+}
 
-    .container{
-        display: inline-flex;
-        align-items: center;
-        font-size: 30px;
-        font-family: Brush Script MT, Brush Script Std, cursive;
-        display: inline-flex;
-        
-    }
 
  
+ .carta{
+    max-width: 300px;
+    display: block;
+    margin-left: 20px;
+    margin-right: auto;
+    padding-top: 60px;
+ }
+
+ .logo{
+    max-width: 40px;
+ }
+
+ ul li :hover{
+    background-color: black;
+ }
+
+ p{
+    font-size: 25px;
+    text-align: left;
+    padding-top: 60px;
+    float: left;
+    padding-left: 20px;
+    
+ }
+
+ .carta{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    max-width: 500px;
+ }
+
+
+.michael{
+    display: inline-flex;
     
 
+}
 
+.michael img{
+    max-width: 300px;
+}
+
+
+ 
+
+ 
 
